@@ -79,4 +79,9 @@ Using MongoDB Atlas (Cloud)
   4. Whitelist your IP address
   5. Connect using connection string in Node.js or Mongo shell
 
+# Installing Firebase
+Prerequisites
+  - Node.js installed
+  - Google account
+
 
