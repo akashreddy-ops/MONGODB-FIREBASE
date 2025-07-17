@@ -39,50 +39,6 @@ Why Use Firebase?
 
 Comparison with SQL Databases
 
-    Feature
-
+  Feature |  
+  
 SQL (MySQL, PostgreSQL)
-
-MongoDB (NoSQL)
-
-Firebase (NoSQL, Realtime)
-
-Schema
-
-Fixed (tables)
-
-Flexible (documents)
-
-Flexible
-
-Relationships
-
-JOINs
-
-Embedded / Referenced
-
-Limited (No JOIN)
-
-Query Language
-
-SQL
-
-JSON-like syntax
-
-Limited Query Language
-
-Scalability
-
-Vertical
-
-Horizontal
-
-Auto-scaled
-
-Ideal Use Case
-
-Structured data
-
-Dynamic / unstructured
-
-Realtime Apps, MVPs
