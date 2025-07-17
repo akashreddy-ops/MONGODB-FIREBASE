@@ -46,3 +46,9 @@ Comparison with SQL Databases
 | **Query Language**| SQL                         | JSON-like syntax             | Limited Query Language         |
 | **Scalability** | Vertical                    | Horizontal                   | Auto-scaled                    |
 | **Ideal Use Case**| Structured data             | Dynamic / unstructured       | Realtime Apps, MVPs            |
+
+
+# Installing MongoDB
+
+For Windows
+  1. Go to https://www.mongodb.com/try/download/community
