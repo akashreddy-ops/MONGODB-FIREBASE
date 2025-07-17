@@ -4,7 +4,7 @@
 
 # Introduction
 
-# What is MongoDB?
+What is MongoDB?
 
 - MongoDB is a NoSQL database that stores data in a flexible, JSON-like format called BSON. Unlike traditional relational databases, MongoDB does not require predefined schemas and is highly scalable, making it perfect for modern web applications.
 
