@@ -23,3 +23,15 @@ Why Use MongoDB?
   - Great community and documentation
 
   - Powerful query language
+
+Why Use Firebase?
+
+  - Real-time database and Firestore
+
+  - Built-in authentication (email/password, Google, GitHub, etc.)
+
+  - Free hosting with SSL
+
+  - Cloud functions and serverless
+
+  - Google Analytics and Performance Monitoring
