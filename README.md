@@ -188,9 +188,9 @@ Firebase Authentication Example
 
 
 Example Firebase Projects
-    - Chat App with Firebase Auth + Firestore
-    - Notes App with real-time sync
-    - Realtime ToDo App
-    - File Upload App using Firebase Storage
-    - URL Shortener
+- Chat App with Firebase Auth + Firestore
+- Notes App with real-time sync
+- Realtime ToDo App
+- File Upload App using Firebase Storage
+- URL Shortener
 
