@@ -59,4 +59,24 @@ For Windows
 
          mongo --version
 
+For macOS
+
+    brew tap mongodb/brew
+    brew install mongodb-community@7.0
+    brew services start mongodb/brew/mongodb-community
+
+For Linux (Ubuntu)
+      
+    sudo apt update
+    sudo apt install -y mongodb
+    sudo systemctl start mongodb
+    sudo systemctl enable mongodb
+
+Using MongoDB Atlas (Cloud)
+  1. Visit: https://cloud.mongodb.com
+  2. Create a free cluster
+  3. Create database user with password
+  4. Whitelist your IP address
+  5. Connect using connection string in Node.js or Mongo shell
+
 
