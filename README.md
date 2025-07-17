@@ -199,3 +199,9 @@ Firebase Deployment
     firebase deploy
 - Deploy hosting, cloud functions, and Firestore rules
 - Connect domain
+
+# Bonus: Firebase Security Tips
+- Use Firebase Authentication
+- Restrict Firestore access using Rules
+- Secure API keys with environment variables
+- Enable App Check to prevent abuse
