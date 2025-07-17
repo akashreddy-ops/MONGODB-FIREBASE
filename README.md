@@ -205,3 +205,71 @@ Firebase Deployment
 - Restrict Firestore access using Rules
 - Secure API keys with environment variables
 - Enable App Check to prevent abuse
+
+
+
+🔥 Firebase Analytics
+
+    ### Firebase Analytics Integration
+    
+    1. In Firebase Console, enable Google Analytics during project setup.
+    2. In your app:
+    
+    ```javascript
+    import { getAnalytics } from 'firebase/analytics';
+    const analytics = getAnalytics(app);
+
+
+3. Use logEvent() to track custom events:
+
+        analytics.logEvent('notification_received');
+
+   
+4. View detailed dashboards in Firebase Console > Analytics.
+
+   
+        #### 📲 Push Notifications with Firebase Cloud Messaging (FCM)
+        
+        ```markdown
+        ### Push Notifications with Firebase Cloud Messaging
+        
+        1. In Firebase Console, enable **Cloud Messaging**.
+        2. Add Firebase SDK to your web or mobile app.
+        3. Request permission for notifications (web):
+        
+        ```javascript
+        import { getMessaging, getToken, onMessage } from 'firebase/messaging';
+        const messaging = getMessaging();
+        
+        getToken(messaging, { vapidKey: 'YOUR_VAPID_KEY' }).then(token => {
+          console.log('Token:', token);
+        });
+
+
+4. Handle messages:
+
+        
+        onMessage(messaging, payload => {
+          console.log('Message received: ', payload);
+        });
+
+
+          
+          #### 📈 MongoDB Charts for Analytics
+          
+          ```markdown
+          ### MongoDB Charts for Analytics
+          
+          1. Visit [https://charts.mongodb.com](https://charts.mongodb.com)
+          2. Connect your cluster or local DB
+          3. Create dashboards and embed charts into apps or admin panels
+          4. Visualize:
+             - User activity
+             - Product sales
+             - Session logs
+
+
+
+
+
+
