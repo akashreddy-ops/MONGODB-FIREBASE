@@ -2,7 +2,7 @@
 
 # MongoDB + Firebase Full Guide for Beginners to Advanced (with MERN Stack)
 
-Introduction
+# Introduction
 
 What is MongoDB?
 
@@ -11,3 +11,15 @@ What is MongoDB?
 What is Firebase?
 
 - Firebase is a Backend-as-a-Service (BaaS) platform developed by Google that offers tools such as real-time database, Firestore, authentication, hosting, cloud functions, and more.
+
+Why Use MongoDB?
+
+  - Schema-less structure (flexible)
+
+  - High performance and scalability
+
+  - Easy to integrate with JavaScript and Node.js
+
+  - Great community and documentation
+
+  - Powerful query language
