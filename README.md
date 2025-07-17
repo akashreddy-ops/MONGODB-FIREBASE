@@ -39,6 +39,6 @@ Why Use Firebase?
 
 Comparison with SQL Databases
 
-  Feature - 
+  Feature (|) 
 
 SQL (MySQL, PostgreSQL)
