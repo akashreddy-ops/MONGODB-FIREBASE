@@ -84,4 +84,41 @@ Prerequisites
   - Node.js installed
   - Google account
 
+# Setup Firebase CLI
 
+    npm install -g firebase-tools
+    firebase login
+    firebase init
+
+Choose features like:
+  - Firestore
+  - Authentication
+  - Hosting
+  - Functions (Cloud Functions)
+
+Firebase Console:
+  1. Go to https://console.firebase.google.com
+  2. Create a new project
+  3. Get credentials from Project Settings > General > Web App
+  4. Copy config and use in your app
+
+# Setting Up MongoDB
+ - Starting the MongoDB Service
+
+           # Windows
+        net start MongoDB
+        
+        # macOS/Linux
+        brew services start mongodb/brew/mongodb-community
+
+- Connecting using MongoDB Shell
+
+      mongo
+
+Using Compass GUI
+
+  1. Open Compass
+
+  2. Paste connection string (for Atlas or local mongodb://localhost:27017)
+
+  3. Explore databases and collections visually
