@@ -276,6 +276,10 @@ Firebase Deployment
 
 
 
+- ER Diagrams for MongoDB schema
+  <img width="1920" height="974" alt="image" src="https://github.com/user-attachments/assets/9b737dc4-f2d9-4f0c-9eac-d1da768912c4" />
+  Visit Site[https://www.datensen.com/blog/docs/er-diagram-and-sub-diagrams/#]
+
 
 
 
