@@ -269,6 +269,12 @@ Firebase Deployment
              - Session logs
 
 
+- Architecture diagrams for MERN + Firebase apps
+  <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/ad82f4c3-7275-4d76-8ed1-0562b671a3f8" />
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ed880717-566e-4593-833a-63fce15007ff" />
+
+
+
 
 
 
