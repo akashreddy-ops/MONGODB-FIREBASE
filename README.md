@@ -122,3 +122,75 @@ Using Compass GUI
   2. Paste connection string (for Atlas or local mongodb://localhost:27017)
 
   3. Explore databases and collections visually
+
+
+# Setting Up Firebase in JavaScript Projectsimport { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+
+    const firebaseConfig = {
+      apiKey: 'YOUR_API_KEY',
+      authDomain: 'your-app.firebaseapp.com',
+      projectId: 'your-app-id',
+      storageBucket: 'your-app.appspot.com',
+      messagingSenderId: 'SENDER_ID',
+      appId: 'APP_ID'
+    };
+    
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    Initialize Firebase
+
+
+Firestore CRUD Example
+
+    import { collection, addDoc, getDocs } from 'firebase/firestore';
+    
+    await addDoc(collection(db, "users"), {
+      name: "Akash",
+      age: 23
+    });
+    
+    const querySnapshot = await getDocs(collection(db, "users"));
+    querySnapshot.forEach(doc => console.log(doc.id, doc.data()));
+
+
+# Basic MongoDB Commands
+(...existing MongoDB commands remain unchanged...)
+
+- Full MERN Stack Integration
+  (...existing MERN content remains...)
+
+- Firebase + React Integration
+  Install Firebase:
+    
+      Install Firebase:
+
+Use Firebase SDK in React:
+
+    import { initializeApp } from 'firebase/app';
+    import { getFirestore } from 'firebase/firestore';
+    
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+Firebase Authentication Example
+
+    import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+    const auth = getAuth();
+    createUserWithEmailAndPassword(auth, email, password)
+      .then(user => console.log(user))
+      .catch(error => console.error(error));
+
+# Helpful Tools and Resources
+(...existing tools + add:)
+  - Firebase Console: https://console.firebase.google.com
+  - Firebase Docs: https://firebase.google.com/docs
+
+
+Example Firebase Projects
+    - Chat App with Firebase Auth + Firestore
+    - Notes App with real-time sync
+    - Realtime ToDo App
+    - File Upload App using Firebase Storage
+    - URL Shortener
+
