@@ -194,3 +194,8 @@ Example Firebase Projects
 - File Upload App using Firebase Storage
 - URL Shortener
 
+Firebase Deployment
+
+    firebase deploy
+- Deploy hosting, cloud functions, and Firestore rules
+- Connect domain
