@@ -52,3 +52,11 @@ Comparison with SQL Databases
 
 For Windows
   1. Go to https://www.mongodb.com/try/download/community
+  2. Select Windows > MSI Installer
+  3. Install and check MongoDB Compass option
+  4. Add MongoDB to environment variables
+  5. Open CMD and run:
+
+         mongo --version
+
+
